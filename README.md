@@ -106,3 +106,11 @@ cast send <address> "function()" --rpc-url $SEPOLIA_RPC_URL --private-key $PRIVA
 - Never use these techniques on mainnet without authorization
 - This is for educational purposes and authorized security testing
 - Keep `.env` private - never commit it
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Disclaimer
+
+These solutions are provided for educational purposes only. The author is not responsible for any misuse of the information contained in this repository. Always obtain proper authorization before testing security vulnerabilities on any system.
