@@ -1,0 +1,33 @@
+# .gitignore
+# Ethernaut CTF - Foundry Project
+
+# Environment variables (contains sensitive keys!)
+.env
+.env.local
+# Keep .env.example - it's the template without secrets
+!.env.example
+
+# Foundry
+cache/
+out/
+broadcast/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Claude Code
+.claude/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node (if using npm for dependencies)
+node_modules/
+
+# Logs
+*.log
