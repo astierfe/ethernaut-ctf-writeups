@@ -1,0 +1,17 @@
+{
+  "name": "notoptimisticportal-attack",
+  "version": "1.0.0",
+  "description": "Merkle proof generator for NotOptimisticPortal attack",
+  "scripts": {
+    "generate": "npx ts-node generateProofs.ts"
+  },
+  "dependencies": {
+    "@ethereumjs/trie": "^6.2.1",
+    "@ethereumjs/rlp": "^5.0.2",
+    "viem": "^2.21.0"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  }
+}
